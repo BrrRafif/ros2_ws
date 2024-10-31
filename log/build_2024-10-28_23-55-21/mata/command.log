@@ -1,0 +1,2 @@
+Invoking command in '/home/berwyn/ros2_ws/build/mata': /usr/bin/cmake /home/berwyn/ros2_ws/mata -DCMAKE_INSTALL_PREFIX=/home/berwyn/ros2_ws/install/mata
+Invoked command in '/home/berwyn/ros2_ws/build/mata' returned '1': /usr/bin/cmake /home/berwyn/ros2_ws/mata -DCMAKE_INSTALL_PREFIX=/home/berwyn/ros2_ws/install/mata

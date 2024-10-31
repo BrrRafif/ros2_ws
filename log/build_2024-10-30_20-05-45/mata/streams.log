@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/berwyn/ros2_ws/build/mata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/berwyn/ros2_ws/build/mata -- -j8 -l8
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/video_masking_node.dir/src/main.cpp.o[0m
+[3.298s] [01m[K/home/berwyn/ros2_ws/mata/src/main.cpp:[m[K In constructor ‘[01m[KVideoMaskingNode::VideoMaskingNode(const string&)[m[K’:
+[3.298s] [01m[K/home/berwyn/ros2_ws/mata/src/main.cpp:8:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvideo_path[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.298s]     8 |     VideoMaskingNode([01;35m[Kconst std::string &video_path[m[K) : Node("video_masking_node") {
+[3.298s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.215s] [100%] [32m[1mLinking CXX executable video_masking_node[0m
+[6.817s] [100%] Built target video_masking_node
+[6.870s] Invoked command in '/home/berwyn/ros2_ws/build/mata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/berwyn/ros2_ws/build/mata -- -j8 -l8
+[6.910s] Invoking command in '/home/berwyn/ros2_ws/build/mata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/berwyn/ros2_ws/build/mata
+[6.919s] -- Install configuration: ""
+[6.919s] -- Installing: /home/berwyn/ros2_ws/install/mata/lib/mata/video_masking_node
+[6.922s] -- Set runtime path of "/home/berwyn/ros2_ws/install/mata/lib/mata/video_masking_node" to ""
+[6.922s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/package_run_dependencies/mata
+[6.922s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/parent_prefix_path/mata
+[6.922s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/ament_prefix_path.sh
+[6.922s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/ament_prefix_path.dsv
+[6.922s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/path.sh
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/path.dsv
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.bash
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.sh
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.zsh
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.dsv
+[6.923s] -- Installing: /home/berwyn/ros2_ws/install/mata/share/mata/package.dsv
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/packages/mata
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/cmake/mataConfig.cmake
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/cmake/mataConfig-version.cmake
+[6.923s] -- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/package.xml
+[6.925s] Invoked command in '/home/berwyn/ros2_ws/build/mata' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/berwyn/ros2_ws/build/mata

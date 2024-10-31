@@ -1,0 +1,16 @@
+/home/berwyn/ros2_ws/install/mata/lib/mata/video_masking_node
+/home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/package_run_dependencies/mata
+/home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/parent_prefix_path/mata
+/home/berwyn/ros2_ws/install/mata/share/mata/environment/ament_prefix_path.sh
+/home/berwyn/ros2_ws/install/mata/share/mata/environment/ament_prefix_path.dsv
+/home/berwyn/ros2_ws/install/mata/share/mata/environment/path.sh
+/home/berwyn/ros2_ws/install/mata/share/mata/environment/path.dsv
+/home/berwyn/ros2_ws/install/mata/share/mata/local_setup.bash
+/home/berwyn/ros2_ws/install/mata/share/mata/local_setup.sh
+/home/berwyn/ros2_ws/install/mata/share/mata/local_setup.zsh
+/home/berwyn/ros2_ws/install/mata/share/mata/local_setup.dsv
+/home/berwyn/ros2_ws/install/mata/share/mata/package.dsv
+/home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/packages/mata
+/home/berwyn/ros2_ws/install/mata/share/mata/cmake/mataConfig.cmake
+/home/berwyn/ros2_ws/install/mata/share/mata/cmake/mataConfig-version.cmake
+/home/berwyn/ros2_ws/install/mata/share/mata/package.xml

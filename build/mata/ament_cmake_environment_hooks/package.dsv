@@ -1,0 +1,4 @@
+source;share/mata/local_setup.bash
+source;share/mata/local_setup.dsv
+source;share/mata/local_setup.sh
+source;share/mata/local_setup.zsh

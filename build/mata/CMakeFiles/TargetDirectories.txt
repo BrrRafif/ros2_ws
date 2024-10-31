@@ -1,0 +1,10 @@
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/uninstall.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/mata_uninstall.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/video_masking_node.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/test.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/edit_cache.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/rebuild_cache.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/list_install_components.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/install.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/install/local.dir
+/home/berwyn/ros2_ws/build/mata/CMakeFiles/install/strip.dir

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target video_masking_node[0m
+[100%] Built target video_masking_node
+-- Install configuration: ""
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/lib/mata/video_masking_node
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/package_run_dependencies/mata
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/parent_prefix_path/mata
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/ament_prefix_path.sh
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/path.sh
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/environment/path.dsv
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.bash
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.sh
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.zsh
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/local_setup.dsv
+-- Installing: /home/berwyn/ros2_ws/install/mata/share/mata/package.dsv
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/ament_index/resource_index/packages/mata
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/cmake/mataConfig.cmake
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/cmake/mataConfig-version.cmake
+-- Up-to-date: /home/berwyn/ros2_ws/install/mata/share/mata/package.xml
