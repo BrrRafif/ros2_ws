@@ -24,15 +24,32 @@ class Publisher : public rclcpp::Node {
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub;
     rclcpp::Publisher<interfaces::msg::Command>::SharedPtr pub;
 
+    float depth = 0.0;
+
     void fungsi_subscribe(const sensor_msgs::msg::Joy::SharedPtr msg)
     {
         auto cmd = interfaces::msg::Command();
 
-        cmd.x_cmd = batas((msg->axes[0] + msg->axes[6]) * 250.0, -250.0, 250.0); //kaki
-        cmd.y_cmd = batas((msg->axes[1] + msg->axes[7]) * 250.0, -250.0, 250.0); //maju-mundur
+        cmd.x_cmd = batas((msg->axes[0] + msg->axes[6]) * 250.0, -250.0, 250.0);
+        cmd.y_cmd = batas((msg->axes[1] + msg->axes[7]) * 250.0, -250.0, 250.0);
         
-        cmd.yaw = batas(msg->axes[3] * 180.0, -180.0, 180.0); //perputaran
-        cmd.depth = batas((msg->axes[5] + 1.0) * 5.0, 0.0, 10.0); //kedalaman
+        cmd.yaw = fmod(batas(msg->axes[3] * 180.0, -180.0, 180.0) + 180.0, 360.0) - 180.0; // perputaran
+        
+        if (msg->buttons[0] == 1) {
+            depth += 1.0;
+            if (depth > 10.0) {
+                depth = 10.0;
+            }
+        }
+
+        if (msg->buttons[1] == 1) {
+            depth -= 1.0;
+            if (depth < 0.0) {
+                depth = 0.0;
+            }
+        }
+
+        cmd.depth = depth;
 
         pub->publish(cmd);
     }
