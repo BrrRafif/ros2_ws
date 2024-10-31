@@ -1,8 +1,0 @@
-source;share/mata/hook/cmake_prefix_path.ps1
-source;share/mata/hook/cmake_prefix_path.dsv
-source;share/mata/hook/cmake_prefix_path.sh
-source;share/mata/local_setup.bash
-source;share/mata/local_setup.dsv
-source;share/mata/local_setup.ps1
-source;share/mata/local_setup.sh
-source;share/mata/local_setup.zsh

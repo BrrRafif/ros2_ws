@@ -1,4 +1,0 @@
-[01m[K/home/berwyn/ros2_ws/mata/src/main.cpp:[m[K In constructor ‘[01m[KVideoMaskingNode::VideoMaskingNode(const string&)[m[K’:
-[01m[K/home/berwyn/ros2_ws/mata/src/main.cpp:8:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvideo_path[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-    8 |     VideoMaskingNode([01;35m[Kconst std::string &video_path[m[K) : Node("video_masking_node") {
-      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
